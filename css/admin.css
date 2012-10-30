@@ -1,0 +1,104 @@
+/* --- STYLES DE BASE --- */ 
+ 
+/* Page */ 
+html { 
+  font-size: 100%; /* Évite un bug d'IE 6-7. (1) */ 
+} 
+body { 
+  margin: 0; 
+  padding: 1em; /* Remettre à zéro si nécessaire. */ 
+  /* Pensez à utiliser une collection de polices (2), par ex: 
+  font-family: Arial, Helvetica, FreeSans, sans-serif; */ 
+  font-size: .8em; /* À adapter pour la police choisie. (3) */ 
+  line-height: 1.4; /* À adapter au design. (4) */ 
+  color: black; 
+  background: white; 
+} 
+ 
+/* Titres */ 
+h1, h2, h3, h4, h5, h6 { 
+  margin: 1em 0 .5em 0; /* Rapproche le titre du texte. (5) */ 
+  line-height: 1.2; 
+  font-weight: bold; /* Valeur par défaut. (6) */ 
+  font-style: normal; 
+} 
+h1 { 
+  font-size: 1.75em; 
+  color:#0061D9;
+  padding-top:15px;
+  padding-left:15px;
+} 
+h2 { 
+  font-size: 1.5em; 
+} 
+h3 { 
+  font-size: 1.25em; 
+} 
+h4 { 
+  font-size: 1em; 
+} 
+ 
+/* Listes */ 
+ul, ol { 
+  margin: .75em 0 .75em 32px; 
+  padding: 0; 
+} 
+ 
+ 
+/* Pas de bordure autour des images dans les liens */ 
+a img { 
+  border: none; 
+} 
+ 
+/* Divers éléments de type en-ligne (8) */ 
+em { 
+  font-style: italic; 
+} 
+strong { 
+  font-weight: bold; 
+} 
+ 
+/* Formulaires */ 
+form, fieldset { 
+  margin: 0; 
+  padding: 0; 
+  border: none; 
+} 
+input, button, select { 
+  vertical-align: middle; /* Solution pb. d'alignement. (9) */ 
+}
+
+/* Mise en forme simple pour les tableaux */ 
+table { 
+  margin: 0; 
+  border: 1px solid gray; /* Pas de bordure = "none". */ 
+  border-collapse: collapse; /* Valeur par défaut: "separate". */ 
+  border-spacing: 0; 
+} 
+table td, table th { 
+  padding: 4px; /* Pas de retrait autour du texte = "0". */ 
+  border: 1px solid #ccc; /* Pas de bordure = "none". */ 
+  vertical-align: top; /* Valeur par défaut: "middle" */ 
+} 
+
+a,a:visited{text-decoration:none;color:#C34918;}
+
+#nav a {padding-top:15px;padding-left:15px;font-size:1.2em}
+
+#content
+{
+	margin:auto;
+	width:1000px;
+	height:auto;
+	background-color:#DEEBEE;
+}
+
+#nav
+{
+	width:1000px;
+	height:50px;
+	background-color:#4F738D;
+	
+}
+
+p{padding-left:20px;}
